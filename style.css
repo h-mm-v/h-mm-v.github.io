@@ -3,10 +3,22 @@ header {
     font-size: 15px;
     border-top: 1px solid rgba(240, 248, 255, 0.25);
     border-bottom: 1px solid rgba(240, 248, 255, 0.25);
-    margin: auto
+    margin: auto;
+    padding-left: 2vw;
+}
+
+footer {
+    display: block;
+    font-size: 15px;
+    border-top: 1px solid rgba(240, 248, 255, 0.25);
+    border-bottom: 1px solid rgba(240, 248, 255, 0.25);
+    margin: auto;
+    text-align: center;
 }
 
 body {
+    padding-top: 2px;
+    padding-bottom: 2px;
     background-color: rgb(20, 39, 54);
     color: aliceblue;
     font-family: Cambria;
@@ -27,6 +39,11 @@ body {
         width: 13.125vw;
         float: right;
     }
+}
+
+.github {
+    padding-bottom:5px;
+    display:block;
 }
 
 a {
