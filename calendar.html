@@ -15,29 +15,31 @@
         <link rel="stylesheet" href="style.css">
     </head>
 
-    <header>
-        <h1 style="float: inline-start; text-align: center; font-size: 36px">
-            Henry <span style="font-weight: lighter; font-style: italic;">Minh-Man</span> Vo
-        </h1>
-
-        <p style="text-align: right">
-            <a href="index.html">About</a> <br>
-            <a href="resume.html">Resume</a> <br>
-            <a href="repos.html" >Repositories</a> <br>
-            <a href="calendar.html" style="color:rgb(81, 174, 255)">Calendar/Availability</a>
-        </p>
-    </header>
-
     <body>
+        <div id="page-container">
+            <div id="content-wrap">
+                <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FLos_Angeles&bgcolor=%23616161&showPrint=0&mode=WEEK&title=Availability%20-%20Henry%20Vo&src=aGVucnkubWluaG0udm9AZ21haWwuY29t&color=%23039BE5" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+            </div>
+        </div>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        
-        <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FLos_Angeles&bgcolor=%23616161&title=Availability&showPrint=0&src=aGVucnkubWluaG0udm9AZ21haWwuY29t&color=%23039BE5" style="border:solid 1px aliceblue" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-
         <script src="" async defer></script>
     </body>
+
+    <header>
+        <h1 style="float: inline-start; text-align: center; width: 800px; margin: auto;">
+            Henry <span style="font-weight: lighter; font-style: italic;">Minh-Man</span> Vo
+        </h1>
+
+        <p style="text-align: right; padding-right: 50px; width: 800px; margin: auto; padding-top: .5rem;">
+            <a href="index.html">About</a> &emsp;
+            <a href="resume.html">Resume</a> &emsp;
+            <a href="repos.html" >Repositories</a> &emsp;
+            <a href="calendar.html" style="color:rgb(81, 174, 255)">Calendar/Availability</a>
+        </p>
+    </header>
     <footer>
-        Hosted by Github Pages
+        &copy; Copyright 2024 Henry Minh-Man Vo. Hosted by Github Pages.
     </footer>
 </html>
