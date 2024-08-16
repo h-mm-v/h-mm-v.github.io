@@ -36,7 +36,6 @@ header {
     margin: auto;
     position: sticky;
     max-width: 40%;
-    padding-right: 15px;
 }
 
 footer {
@@ -75,12 +74,17 @@ a {
 }
 
 h1 {
-    font-size: 1.25vw;
-    text-align: center;
+    @media only screen and (min-width: 768px) {
+        float: inline-start;
+    }
+    font-size: calc(16px + .5vw);
+    text-align: left;
 }
 
 #abouttitle {
     font-size: 38px;
+    text-align: center;
+    width:100%;
 }
 
 p {
