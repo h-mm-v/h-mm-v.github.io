@@ -35,7 +35,7 @@ header {
     font-size: 1vw;
     margin: auto;
     position: sticky;
-    width: 800px;
+    max-width: 40%;
     padding-right: 15px;
 }
 
