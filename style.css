@@ -75,10 +75,10 @@ a {
 
 h1 {
     font-size: calc(16px + .5vw);
-    text-align: left;
+    text-align: center;
     @media only screen and (min-width: 768px) {
         float: inline-start;
-        text-align: center;
+        text-align: left;
     }
 }
 
