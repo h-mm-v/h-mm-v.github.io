@@ -36,6 +36,9 @@ header {
     margin: auto;
     width: 95vw;
     text-align: center;
+    @media screen and (min-width: 768px) {
+        text-align: right;
+    }
 }
 
 footer {
