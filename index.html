@@ -36,13 +36,56 @@
                     I am a second year undergraduate student pursuing a Bachelor of Science in Computer Science at California State University, Sacramento (CSUS). 
                     In my leisure, I enjoy playing the flute and violin, playing video games, reading manga/manhwa, and working out.
                 </p>
+
+                <div>
+                    <img src="bandPic.jpg" class="pfp">
+                </div>
                 <p>
                     Currently, I am acting as a treasurer for the Vietnamese Student Association at CSUS and a dance captain for its corresponding dance team, Red Lotus.
+                    I also am working on 
                 </p>
+                
                 <p>
                     Formerly, I played the flute and piccolo for the Sacramento State Marching Band during Fall 2023, as well as the Monterey Trail High School Symphonic Ensemble 
-                    and Marching Band during the 2019-2023 seasons.
-                </p>   
+                    and Marching Band during the 2019-2023 seasons. I also have a history in wrestling and MMA.
+                </p>
+                
+                <hr>
+                <h1 id="abouttitle" style="font-size: 35px; font-weight: lighter;">
+                    Previous Research
+                </h1>
+
+                <div>
+                    <img src="presenterPic.jpg" class="pfp">
+                    <img src="presentersPic.jpg" class="pfp2">
+                </div>
+                
+                <p style="text-align: center;">
+                    During the summer of 2024, I got the opportunity to attend PATH-UP's REU at Rice University.
+                     During this time I conducted academic research on pulse oximetry and its relationship with thermal imaging for the purposes of vital sign extraction.
+                     The project's abstract is as follows:
+                </p>
+                <br>
+                <hr>
+                <p id="prevResearch" style="text-align: center;">
+                    Monitoring Respiratory Signals from Contact and Non-Contact Sensors: A Case Study
+                    Maritza Apolinar,<sup>1,2</sup> Tahlia Lamour,<sup>1,3</sup> Megan MacLeay,<sup>1,2</sup> Henry Vo,<sup>1,4</sup> Anirudh Bindiganavale Harish<sup>1</sup>, Salman Khan<sup>1</sup> and Ashok Veeraraghavan<sup>1</sup><br>
+                    <sup>1</sup>Department of Electrical and Computer Engineering, PATHS-UP Engineering Research Center, Rice University, Houston, Texas, USA<br>
+                    <sup>2</sup>Department of Biomedical Engineering, Texas A&M University College of Engineering, College Station, Texas, USA<br>
+                    <sup>3</sup>Department of Computer Science and Engineering, McKelvey School of Engineering, Washington University in St. Louis, St. Louis, Missouri, USA<br>
+                    <sup>4</sup>Department of Computer Science, College of Engineering and Computer Science, California State University, Sacramento, Sacramento, California, USA
+                </p>
+                <p id="prevResearch">
+                    &emsp; Vital signs, notably respiration rate, heart rate, and heart rate variability, are important measures for assessing health status. Photoplethysmography (PPG) is a low-cost and noninvasive technique that can be processed to obtain such vital measurements. For PPG signals, we developed a peak detection algorithm that is robust to corruption. These extrema points are essential to obtain numerical estimates for the pulse - namely the heart rate and heart rate variability. Building on this, we processed these extrema to infer the respiratory rate from the PPG signal. Specifically, we explore and analyze the frequency profile of HRV, peak amplitude, and signal intensity to estimate the respiratory signal [1]. <br>
+                    &emsp; Parallely, we explore thermal imaging to develop a non-contact-based method to monitor RR. This is a crucial step forwards as contact-based methods can cause discomfort to patients and alter breathing rates. Current non-contact methods have room for improvement given their sensitivity to extraneous movements. We estimate RR from thermal videos by monitoring temperature changes in the region around the nose caused by inhaling cold air and exhaling warm air. This area is extracted using machine learning methods to detect 54 facial landmarks [2], and hence the region of interest (ROI). Respiration being quasi-periodic, can be identified through a frequency-based analysis of the ROI. Specifically, we look at ways to subdivide the ROI and quantify its quality through measures of periodicity and signal strength. <br>
+                    &emsp; Combining both modules, we develop an end-to-end system to acquire and analyze thermal and PPG signals in order to estimate the participant’s breathing rate. We placed the camera to be facing the participant at angle from underneath the face to better capture the temperature variations near the nose. We tested several recordings with the subject in different positions and breathing at different rates. The estimate from the thermal camera, the rate calculated from our PPG-based algorithm, and the estimation from directly counting breaths in the recorded video were all consistent with each other.
+                </p>
+                <p id="prevResearch">
+                    [1]    W. Karlen, S. Raman, J. M. Ansermino and G. A. Dumont, "Multiparameter Respiratory Rate Estimation From the Photoplethysmogram," in IEEE Transactions on Biomedical Engineering, vol. 60, no. 7, pp. 1946-1953, July 2013, doi: 10.1109/TBME.2013.2246160. keywords: {Estimation;Algorithm design and analysis;Diseases;Lungs;Calibration;Real-time systems;Accuracy;Data fusion;photoplethysmogram (PPG);pulse oximeter;respiratory rate (RR)},<br><br>
+
+                    [2]     “IS2AI/thermal-facial-landmarks-detection,” GitHub, Jun. 14, 2024. https://github.com/IS2AI/thermal-facial-landmarks-detection (accessed Jul. 19, 2024).
+                </p>
+                <hr>
             </div>
         </div>
 
@@ -54,7 +97,8 @@
             <a href="index.html" style="color:rgb(81, 174, 255)">About</a> &emsp;
             <a href="resume.html">Resume</a> &emsp;
             <a href="repos.html">Repositories</a> &emsp;
-            <a href="calendar.html">Calendar/Availability</a>
+            <a href="calendar.html">Calendar/Availability</a> &emsp;
+            <a href="wibd.html">What I've Been Doing</a>
         </p>
     </header>
     <footer>

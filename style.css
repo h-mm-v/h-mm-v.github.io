@@ -59,9 +59,22 @@ footer {
     display: block;
     width: 80%;
     margin: auto;
+    padding: 5px;
     @media only screen and (min-width: 768px) {
         width: 13.125vw;
         float: right;
+    }
+}
+
+.pfp2 {
+    border-radius: 25%;
+    display: block;
+    width: 80%;
+    margin: auto;
+    padding: 5px;
+    @media only screen and (min-width: 768px) {
+        width: 13.125vw;
+        float: left;
     }
 }
 
@@ -77,18 +90,29 @@ a {
 }
 
 h1 {
-    font-size: calc(16px + .5vw);
     text-align: center;
+    font-size: calc(16px + .5vw);
     @media only screen and (min-width: 768px) {
         float: inline-start;
-        text-align: left;
+        text-align: center;
+    }
+}
+
+h2 {
+    font-size: calc(13px + .5vw);
+    @media only screen and (min-width: 768px) {
+        float: inline-start;
+        text-align: center;
     }
 }
 
 #abouttitle {
     font-size: 38px;
-    text-align: center;
     width:100%;
+}
+
+#prevResearch {
+    font-size: 14px;
 }
 
 p {
