@@ -40,9 +40,6 @@ header {
         text-align: right;
     }
 }
-#header-text:hover {
-    color: rgb(81, 174, 255);
-}
 
 footer {
     display: block;
@@ -55,6 +52,11 @@ footer {
     bottom: 0;
     width: 100%;
     min-height: fit-content;
+}
+
+a:hover {
+    transition: all .2s ease-in;
+    color: rgb(81, 174, 255);
 }
 
 .pfp {
