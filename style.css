@@ -86,6 +86,10 @@ footer {
     display:block;
 }
 
+#socials {
+    width: 10vw;
+}
+
 a {
     color: aliceblue;
     font-style: normal;
