@@ -91,6 +91,12 @@ a:hover {
 #socials {
     width: 100px;
     margin: auto;
+    filter: grayscale(100%) opacity(50%); 
+}
+
+#socials:hover {
+    filter: grayscale(75%) opacity(100%);
+    transition: all .2s ease-in;
 }
 
 a {
